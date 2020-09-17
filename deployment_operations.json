@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourceGroups/Speech/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesSpeechServices/operations/3184F5F2DFDE46FD",
+    "operationId": "3184F5F2DFDE46FD",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-10-27T00:02:27.2522537Z",
+      "duration": "PT1.4388899S",
+      "trackingId": "dfbde404-52b6-4702-9655-6bd15aaf39ab",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourceGroups/Speech/providers/Microsoft.CognitiveServices/accounts/InfinityRoom",
+        "resourceType": "Microsoft.CognitiveServices/accounts",
+        "resourceName": "InfinityRoom"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourceGroups/Speech/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesSpeechServices/operations/08586294723408668119",
+    "operationId": "08586294723408668119",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-10-27T00:02:27.6587737Z",
+      "duration": "PT0.2437818S",
+      "trackingId": "baebf42b-8236-45e2-96cf-fe6f0631b20b",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

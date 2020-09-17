@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <section class="Encabezado">
+        <h1 class="title"> <a href="index.xhtml"> Mapa </a> </h1>
+        </section>
+        <section class="formulario">
+        <form id="theOptions">
+            <section class="questions">
+                <div class="options">
+                    <p> Dimension </p>
+                    <input class="inputmap" type="text" id="f" name="filas">
+                </div>
+            </section>
+            <input type="submit" class="enviar2"/>
+        </form>
+        <div id="canvas"></div>
+        </section>
+    </body>
+    
+    <script>
+        const loadScript = scr => {
+            const script = document.createElement('script')
+            script.src = scr
+            document.head.appendChild(script)
+        }
+        const formWithOptions = document.getElementById("theOptions")
+        formWithOptions.onsubmit = () => {
+            window.filas = formWithOptions.elements["filas"].value
+            loadScript("libraries/p5.min.js")
+            loadScript("init.js")
+            loadScript("mapa.js")
+            formWithOptions.style.display = "none"
+            const resizeCanvas = setInterval(() => {
+                const canvas = document.getElementById("defaultCanvas0")
+                if (!canvas) return
+                canvas.style = ""
+                canvas.style.display = "block"
+                clearInterval(resizeCanvas)
+            }, 10)
+            return false
+        }
+    </script>
+</html>

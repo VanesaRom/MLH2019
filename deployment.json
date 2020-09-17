@@ -1,0 +1,58 @@
+{
+  "id": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourceGroups/Speech/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesSpeechServices",
+  "name": "Microsoft.CognitiveServicesSpeechServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.CognitiveServicesSpeechServices",
+    "primaryResourceId": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourcegroups/Speech/providers/Microsoft.CognitiveServices/accounts/InfinityRoom"
+  },
+  "properties": {
+    "templateHash": "946911863299201236",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "InfinityRoom"
+      },
+      "location": {
+        "type": "String",
+        "value": "southcentralus"
+      },
+      "apiType": {
+        "type": "String",
+        "value": "SpeechServices"
+      },
+      "sku": {
+        "type": "String",
+        "value": "S0"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-10-27T00:02:27.7853704Z",
+    "duration": "PT3.1745773S",
+    "correlationId": "435b8e09-a5e7-4713-94ef-c63049da0dd5",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "southcentralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/c3c3e45f-2c2e-438d-a577-52962647e3e1/resourceGroups/Speech/providers/Microsoft.CognitiveServices/accounts/InfinityRoom"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

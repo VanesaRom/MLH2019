@@ -1,0 +1,130 @@
+
+body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: linear-gradient(to right,rgb(212, 212, 212), rgb(212, 212, 212));
+    margin:0;
+}
+
+.mapa
+{
+width:80%;
+display: flex;
+margin:0;
+}
+
+canvas
+{
+    width:900px;
+    background-color:blue;
+}
+
+.insertar
+{
+ width:20%;
+ background-color:blueviolet;
+ display:flex;   
+}
+
+form
+{
+width:80%;
+margin:auto;
+}
+
+form label
+{
+    font-size: 26px;
+    margin:auto;
+    color: white;
+    width:90%;
+}
+
+form input
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width:90%;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.enviar
+{
+    background-image: linear-gradient(to left,rgb(0, 0, 0), rgb(0, 0, 0));
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enviar:hover
+{
+    background-image: linear-gradient(to right, rgb(58, 58, 58),rgb(58, 58, 58));
+}
+
+.menu
+{
+    padding-top:200px;
+    background-color: rgba(228, 228, 228, 0.993);
+    height:400px;
+    width: 50%;
+    margin:auto;
+}
+
+h1
+{
+    width:100%;
+    display:flex;
+    color: white;
+}
+
+a
+{
+    color:white;
+    font-style: none;
+    text-decoration: none;
+}
+
+.Encabezado
+{
+    width:100%;
+    background-color: black;
+    display: inline-flex;
+}
+#theOptions
+{
+    width:100%;
+    background-color:black ;
+    display: flex;
+    color:white;
+}
+.formulario
+{
+    width:100%;
+    display: inline-flex;
+}
+.inputmap
+{
+font-size: 18px;
+}
+
+.enviar2
+{
+    background-image: linear-gradient(to left,rgb(66, 66, 66), rgb(66, 66, 66));
+    border: none;
+    color: white;
+    font-size:20px;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enviar2:hover
+{
+    background-image: linear-gradient(to right, rgb(58, 58, 58),rgb(58, 58, 58));
+}
